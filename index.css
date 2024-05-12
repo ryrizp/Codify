@@ -1,0 +1,64 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0e6ff; /* Light purple background */
+}
+
+header {
+    background-color: #512da8; /* Dark purple header */
+    color: #fff;
+    text-align: center;
+    padding: 13px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #512da8; /* Purple navigation links */
+}
+
+nav ul li a:hover {
+    color: #7c43bd; /* Lighter purple on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #512da8; /* Purple headings */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}

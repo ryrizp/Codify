@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS Learning App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CODIFY</h1> <p>we learn to code to satisfy</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lessons.html">Lessons</a></li>
+            <li><a href="quiz.html">Quizzes</a></li>
+            <li><a href="vid.html">Video Tutorial</a></li>
+            <li><a href="code.html">Code</a></li>
+        </ul>
+    </nav>
+    <main>
+        
+            
+        </section>
+        <section id="lessons">
+            <h2>CSS Lesson 1 : Introduction to CSS </h2>
+
+    <div class="lesson-content">
+        
+        <p>CSS, or Cascading Style Sheets, is a style sheet language used to describe the presentation of a document written in HTML. CSS allows web developers to control the layout, colors, fonts, and other visual aspects of a webpage, separate from its structure and content.</p>
+
+       <br>
+
+        <h3>1. Selectors</h3>
+        <ul>
+            <li>Selectors are patterns used to select the HTML elements you want to style.</li>
+            <li>They can target elements based on their tag name, class, ID, or other attributes.</li>
+            <li>For example, to select all paragraphs, you would use the selector <code>p</code>. To select elements with a specific class, you would use <code>.classname</code>.</li>
+        </ul>
+
+        <h3>2. Properties</h3>
+        <ul>
+            <li>CSS properties are the styling attributes that you apply to selected elements.</li>
+            <li>Properties define how elements should appear, such as their color, size, font, margin, padding, and more.</li>
+        </ul>
+
+        <h3>3. Values</h3>
+        <ul>
+            <li>CSS properties are assigned values that determine the specific styling applied to elements.</li>
+            <li>Values can be keywords, such as <code>red</code> or <code>bold</code>, or numerical values, such as <code>12px</code> or <code>2em</code>.</li>
+        </ul>
+
+        <h3>4. Syntax</h3>
+        <ul>
+            <li>CSS rules consist of a selector, followed by a block of property-value pairs enclosed in curly braces <code>{ }</code>.</li>
+            <li>Each property-value pair is separated by a colon <code>:</code>, and individual rules are separated by semicolons <code>;</code>.</li>
+        </ul>
+
+        <h3>5. Cascading</h3>
+        <ul>
+            <li>CSS follows a cascading model, meaning that multiple style sheets can be applied to the same document, and styles can cascade or override each other based on specificity and order of declaration.</li>
+        </ul>
+
+        <h2>Applying CSS to HTML</h2>
+
+        <h3>1. Inline Styles</h3>
+        <p>Styles can be applied directly to individual HTML elements using the <code>style</code> attribute.</p>
+        <pre><code>&lt;p style="color: blue; font-size: 16px;"&gt; <br>This is a styled paragraph.&lt;/p&gt;</code></pre>
+
+        <h3>2. Internal Styles</h3>
+        <p>Styles can be defined within the <code>&lt;style&gt;</code> element in the <code>&lt;head&gt;</code> section of an HTML document.</p>
+        <pre><code>&lt;head&gt;
+    &lt;style&gt;
+        p {
+            color: blue;
+            font-size: 16px;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;</code></pre>
+
+        <h3>3. External Stylesheets</h3>
+        <p>Styles can be defined in external CSS files and linked to HTML documents using the <code>&lt;link&gt;</code> element.</p>
+        <pre><code>&lt;head&gt;
+    &lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;/head&gt;</code></pre>        
+    </div>   <br><br>             
+                
+            
+            <div class="quiz-option">
+                
+                <a href="qc1.html">Take HTML Quiz 1</a> <br><br>
+              <br><br>  <a href="cl2.html">Next Lesson</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

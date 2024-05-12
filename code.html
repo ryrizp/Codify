@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS Learning App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>CODIFY</h1>
+        <p>we learn to code to satisfy</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lessons.html">Lessons</a></li>
+            <li><a href="quiz.html">Quizzes</a></li>
+            <li><a href="vid.html">Video Tutorial</a></li>
+            <li><a href="code.html">Code</a></li>
+        </ul>
+    </nav>
+<br><br>
+    <div id="editor">
+        <h2>HTML Editor</h2>
+        <textarea id="html-code" placeholder="Write your HTML code here..."></textarea>
+        <h2>CSS Editor</h2>
+        <textarea id="css-code" placeholder="Write your CSS code here..."></textarea>
+        <br><br><br><br><button id="show-result">Show Result</button>
+    
+    <br><br>
+    <div id="result">
+        <h2>Result</h2>
+        <iframe id="output"></iframe>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+</html>
